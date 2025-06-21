@@ -1,0 +1,18 @@
+
+Model Evaluation
+
+To evaluate the performance of the Random Forest Classifier, we used two primary metrics: accuracy and F1-score, along with a confusion matrix to understand the distribution of predictions across the three priority levels (High, Medium, Low).
+
+1. Accuracy
+The overall accuracy of the model on the test set was 96.5%, indicating that the classifier correctly predicted the issue priority in most cases.
+
+2. F1-Score
+The weighted F1-score was 0.964, demonstrating a strong balance between precision and recall, particularly important in multi-class classification where class imbalance may affect performance.
+
+3. Confusion Matrix
+The confusion matrix revealed that:
+- High priority cases were correctly identified with high precision.
+- Medium and Low priority classes showed slight misclassification, often overlapping due to subtle feature differences.
+- Overall, the model maintained strong classification boundaries, especially for more critical cases (High priority).
+
+These results confirm that the model is reliable for real-world application in prioritizing resource allocation based on issue severity.
