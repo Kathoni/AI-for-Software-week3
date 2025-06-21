@@ -1,1 +1,18 @@
 
+Ethical Reflection: Fairness and Bias in Predictive Modeling
+When deploying a predictive model—such as the one from Task 3 for prioritizing issues using the breast cancer dataset—in a real-world company, ethical considerations must go beyond technical performance. One of the key concerns is data bias, especially if the dataset reflects historical or structural imbalances.
+
+For instance, if certain departments, teams, or demographic groups are underrepresented in the training data, the model may not learn to prioritize their cases accurately. This can result in systematic under-prioritization, where issues from these groups are consistently labeled as "low" priority—not because they are less important, but because the model lacks enough examples to understand their severity. In a workplace setting, such skewed outputs can reinforce inequality, reduce trust in the system, and negatively affect team morale.
+
+To mitigate such issues, fairness assessment and mitigation tools like IBM AI Fairness 360 (AIF360) can be introduced. This toolkit provides over 70 fairness metrics and bias mitigation algorithms. It can evaluate how predictions vary across sensitive attributes (e.g., department, team, gender) and apply techniques like reweighting, adversarial debiasing, or equalized odds post-processing to make outputs more equitable.
+
+Using AIF360, the organization can:
+
+Detect biases by comparing accuracy and error rates across groups.
+
+Visualize disparities in how predictions affect different cohorts.
+
+Apply corrective measures that adjust either the dataset, the learning process, or the predictions themselves.
+
+Ultimately, fairness isn't a one-time fix—it requires continuous monitoring, stakeholder feedback, and transparent reporting. Ethical AI deployment means designing for inclusivity, regularly auditing model behavior, and ensuring the predictive system supports all teams equitably, not just the most represented ones.
+
